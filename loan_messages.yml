@@ -1,0 +1,23 @@
+en:
+  welcome: "Welcome to my Mortgage Calculator"
+  enter: "Please enter the loan amount ($)"
+  loan_invalid: "Please enter a valid amount in $"
+  annual_rate: "What is the Annual Percentage Rate (APR)? Enter % (ex. 5)"
+  apr_invalid: "Please enter a valid APR. Example: 5"
+  duration: "What is the loan duration in months?"
+  duration_invalid: "Please enter a valid number of months"
+  exit: "Calculate another loan monthly payment? Y/N"
+  result: "Your monthly payment is:"
+  bye: "Thanks for using the calculator. Good bye."
+  
+es:
+  welcome: "Bienvenido a mi Calculadora de Hipoteca"
+  enter: "Introduzca el importe del préstamo ($)"
+  loan_invalid: "Ingrese un importe válido en $"
+  annual_rate: "¿Cuál es la Tasa de Porcentaje Anual (APR)? Entrar % (ex. 5)"
+  apr_invalid: "Ingrese una TAE válida. Ejemplo: 5"
+  duration: "¿Cuál es la duración del préstamo en meses?"
+  duration_invalid: "Ingrese un número válido de meses"
+  exit: "¿Calcula otro préstamo mensual? Y/N"
+  result: "Su pago mensual es:"
+  bye: "Gracias por usar la calculadora, adiós."

@@ -1,0 +1,29 @@
+<% if session[:message] %>
+  <%= session.delete(:message) %>    
+<% end %>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Created</th>
+      <th>Card Number</th>
+      <th>Expiration Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% session[:payments].each do |payment| %>
+    <tr>
+      <td><%= payment["First Name"] %> <%= payment["Last Name"] %></td>
+      <td><%= payment["Time"] %></td>
+      <td><%= hide_card_num(payment["Card Number"]) %></td>
+      <td><%= payment["Expiry Date"] %></td>
+    </tr>
+    <% end %>
+
+
+  </tbody>
+</table>
+
+    <a href="/checkout">Make another payment</a>
+    
